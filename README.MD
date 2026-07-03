@@ -118,14 +118,6 @@ API_SECRET=your_api_secret
 
 > **Note:** Generate your API credentials from the Binance Futures Demo/Testnet environment, not from your regular Binance account.
 
-## Run CLI
-
-python cli.py
-
-## Run UI
-
-streamlit run ui/app.py
-
 ## Example
 
 ![CLI Screenshot](screenshots/cli.png)
