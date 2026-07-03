@@ -1,5 +1,7 @@
 # Binance Futures Trading Bot
 
+A Python trading bot for Binance Futures Testnet that supports Market, Limit, and Stop-Limit orders through both a CLI and a Streamlit UI, with input validation, logging, and exception handling.
+
 ## Features
 
 - Market Orders
