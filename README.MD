@@ -10,36 +10,102 @@
 - Logging
 - Validation
 
-## Folder Structure
+## 📂 Project Structure
 
+```text
 trading_bot/
 │
 ├── bot/
 │   ├── __init__.py
-│   ├── client.py          # Binance client wrapper
-│   ├── config.py          # Configuration values
-│   ├── logging_config.py  # Logging setup
-│   ├── orders.py          # Order placement logic
-│   └── validators.py      # Input validation
-│
-├── ui/
-│   └── app.py             # Streamlit UI
+│   ├── client.py              # Binance API client
+│   ├── config.py              # Configuration settings
+│   ├── logging_config.py      # Logging setup
+│   ├── orders.py              # Market, Limit & Stop-Limit order logic
+│   └── validators.py          # Input validation
 │
 ├── logs/
-│   ├── trading.log
-│   ├── market_order.log
-│   └── limit_order.log
+│   └── trading.log            # API requests, responses & errors
 │
-├── cli.py                 # CLI entry point
-├── .env                   # API credentials (not committed)
-├── requirements.txt
-└── README.md
+├── screenshots/
+│   ├── cli.png
+│   ├── streamlit.png
+│   └── logs.png
+│
+├── ui/
+│   └── app.py                 # Streamlit web interface
+│
+├── .env.example               # Sample environment variables
+├── .gitignore
+├── cli.py                     # CLI entry point
+├── README.md
+└── requirements.txt
+```
 
-## Installation
+## 📋 Requirements
 
-git clone ...
+- Python 3.10 or later
+- Binance Futures Demo/Testnet account
+- Binance Demo/Testnet API Key and Secret
+- Internet connection
+- Required Python packages (listed in `requirements.txt`)
 
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/trading_bot.git
+cd trading_bot
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the virtual environment
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+source venv/bin/activate
+```
+
+### 4. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+### 5. Configure environment variables
+
+Create a `.env` file in the project root:
+
+```env
+API_KEY=your_demo_api_key
+API_SECRET=your_demo_api_secret
+```
+
+> **Note:** Generate your API credentials from the Binance Futures Demo/Testnet environment, not from your regular Binance account.
+
+### 6. Run the CLI
+
+```bash
+python cli.py
+```
+
+### 7. Run the Streamlit UI
+
+```bash
+streamlit run ui/app.py
+```
 
 ## Configuration
 
