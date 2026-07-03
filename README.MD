@@ -54,7 +54,7 @@ trading_bot/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/trading_bot.git
+git clone https://github.com/nilaksh-parihar/trading_bot.git
 cd trading_bot
 ```
 
