@@ -41,12 +41,16 @@ git clone ...
 
 pip install -r requirements.txt
 
-## Configure
+## Configuration
 
-Create .env
+Create a `.env` file in the project root and add your Binance Demo/Testnet API credentials:
 
-API_KEY=
-API_SECRET=
+```env
+API_KEY=your_api_key
+API_SECRET=your_api_secret
+```
+
+> **Note:** Generate your API credentials from the Binance Futures Demo/Testnet environment, not from your regular Binance account.
 
 ## Run CLI
 
