@@ -12,7 +12,28 @@
 
 ## Folder Structure
 
-...
+trading_bot/
+│
+├── bot/
+│   ├── __init__.py
+│   ├── client.py          # Binance client wrapper
+│   ├── config.py          # Configuration values
+│   ├── logging_config.py  # Logging setup
+│   ├── orders.py          # Order placement logic
+│   └── validators.py      # Input validation
+│
+├── ui/
+│   └── app.py             # Streamlit UI
+│
+├── logs/
+│   ├── trading.log
+│   ├── market_order.log
+│   └── limit_order.log
+│
+├── cli.py                 # CLI entry point
+├── .env                   # API credentials (not committed)
+├── requirements.txt
+└── README.md
 
 ## Installation
 
@@ -37,7 +58,9 @@ streamlit run ui/app.py
 
 ## Example
 
-(screenshot)
+![CLI Screenshot](screenshots/cli.png)
+![Streamlit Screenshot](screenshots/ui.png)
+![Log Screenshot](screenshots/log.png)
 
 ## Logs
 
@@ -45,4 +68,8 @@ logs/trading.log
 
 ## Assumptions
 
-...
+- The application uses the Binance Futures Testnet/Demo environment.
+- Users have valid Binance Testnet API credentials stored in a `.env` file.
+- The trading symbol is valid (e.g., BTCUSDT).
+- LIMIT and STOP_LIMIT orders require a valid price.
+- The account has sufficient demo balance for order execution.
