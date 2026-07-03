@@ -1,0 +1,52 @@
+2026-07-03 16:39:17,676 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 16:59:22,710 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 16:59:44,418 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:00:00,893 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:00:46,373 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=0.01
+2026-07-03 17:00:47,292 | ERROR | trading_bot | APIError(code=-2014): API-key format invalid.
+2026-07-03 17:01:00,588 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:01:24,226 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=0.01
+2026-07-03 17:01:25,898 | ERROR | trading_bot | APIError(code=-2014): API-key format invalid.
+2026-07-03 17:11:10,860 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:11:31,972 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=0.01
+2026-07-03 17:11:32,876 | ERROR | trading_bot | APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-07-03 17:13:07,270 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:19:14,558 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:19:23,096 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:19:35,589 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=0.01
+2026-07-03 17:19:36,411 | INFO | trading_bot | Response: {'orderId': 18709279509, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ62b62cbaba21fe8fbe6d77', 'price': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783079376465}
+2026-07-03 17:28:58,830 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:29:02,413 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=0.01
+2026-07-03 17:29:03,403 | INFO | trading_bot | Response: {'orderId': 18710794097, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ7c9e70e31f810d52638c86', 'price': '0.00', 'avgPrice': '61992.300000', 'origQty': '0.0100', 'executedQty': '0.0100', 'cumQuote': '619.923000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1783079943239, 'updateTime': 1783079943239}
+2026-07-03 17:35:35,528 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:35:50,329 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=0.01
+2026-07-03 17:35:51,190 | INFO | trading_bot | 
+        Order Placed Successfully
+        -------------------------
+        Order ID : 18711953602
+        Symbol   : BTCUSDT
+        Side     : BUY
+        Type     : MARKET
+        Status   : FILLED
+        Executed : 0.0100
+        Price    : 62010.900000
+        
+2026-07-03 17:36:19,720 | INFO | trading_bot | Connected to Binance Futures Testnet.
+2026-07-03 17:36:29,631 | INFO | trading_bot | Placing LIMIT BUY order | Symbol=BTCUSDT Qty=0.1 Price=1.0
+2026-07-03 17:36:30,250 | ERROR | trading_bot | APIError(code=-4013): Price less than min price.
+2026-07-03 17:36:43,542 | INFO | trading_bot | Placing LIMIT BUY order | Symbol=BTCUSDT Qty=2.0 Price=1.0
+2026-07-03 17:36:43,719 | ERROR | trading_bot | APIError(code=-4013): Price less than min price.
+2026-07-03 17:36:51,362 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=1.98
+2026-07-03 17:36:51,881 | ERROR | trading_bot | APIError(code=-2019): Margin is insufficient.
+2026-07-03 17:37:02,065 | INFO | trading_bot | Placing MARKET BUY order | Symbol=BTCUSDT Qty=0.02
+2026-07-03 17:37:02,482 | INFO | trading_bot | 
+        Order Placed Successfully
+        -------------------------
+        Order ID : 18712135688
+        Symbol   : BTCUSDT
+        Side     : BUY
+        Type     : MARKET
+        Status   : FILLED
+        Executed : 0.0200
+        Price    : 62010.900000
+        
